@@ -8,20 +8,20 @@
 	6. Roda o seguinte comando para criar alguns registros no banco de dados na tabela status "npx sequelize-cli db:seed:all"
 	7. Testar a api validando os itens do teste
 - Considerações
-	Foi criado alguns endpoints para facilitar o testes do teste. rsrs
-		Para consultar conta por cpf.
-		Para consultar todas as contas.
-		Para buscar todas ações (Deposito e transferência).
+	1. Foi criado alguns endpoints para facilitar o testes do teste. rsrs
+		1. Para consultar conta por cpf.
+		2. Para consultar todas as contas.
+		3. Para buscar todas ações (Deposito e transferência).
 - Endpoints
-	Criar conta.
+	1. Criar conta.
 		localhost:3000/user
-	Deposito.
+	1. Deposito.
 		localhost:3000/account/deposit
-	Transferencia
+	1. Transferencia
 		localhost:3000/account/transfer
-	Buscar conta por CPF.
+	1. Buscar conta por CPF.
 		localhost:3000/user/2
-	Buscar todas as contas.
+	1. Buscar todas as contas.
 		localhost:3000/user
-	Buscar todas as transações.
+	1. Buscar todas as transações.
 		localhost:3000/account/transfer
